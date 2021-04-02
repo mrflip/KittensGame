@@ -384,6 +384,8 @@ function autoObserve() {
 	// Auto praise the sun
 function autoPraise(){
 	if (autoCheck[4] != "false" && gamePage.bld.getBuildingExt('temple').meta.val > 0) {
+	    var currFaith = gamePage.resPool.get('faith').value;
+	    if (currFaith < 100) { return }
 			gamePage.religion.praise();
 	}
 }
@@ -402,7 +404,7 @@ if (autoCheck[0] != "false" && gamePage.ui.activeTabId == 'Bonfire') {
 						if (btn[i].model.metadata.name == buildingsList[z]) {
 							btn[i].controller.buyItem(btn[i].model, {}, function(result) {
 								if (result) {
-									gamePage.msg('Bought' + buildingsList[z]);
+									gamePage.msg('Bought ' + buildingsList[z]);
 									btn[i].update();
 								}
 								});
