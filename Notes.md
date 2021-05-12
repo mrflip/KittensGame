@@ -1,3 +1,18 @@
+fifty:
+
+40: steamworks,
+20: broadcast, calciner,
+10: reactor,
+
+
+mansion 60 Hut 40 LH 100
+
+
+Sunlifter 3
+Sattelite
+
+
+
 You have sent 23 trade caravan(s)
 You've got 400.51 spice
 You've got 21.13 gear
