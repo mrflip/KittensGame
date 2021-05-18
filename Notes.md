@@ -1,3 +1,9 @@
+
+'liberty', 'republic', 'liberalism', 'diplomacy', 'culturalExchange',
+'zebraRelationsBellicosity', 'outerSpaceTreaty', 'expansionism',
+'necrocracy', 'epicurianism', 'mysticism', 'environmentalism',
+'conservation',
+
 fifty:
 
 40: steamworks,
